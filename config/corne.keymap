@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/rgb.h>
 
 #define DEFAULT_L 0
 #define SYMBOLS_L 1
@@ -129,7 +128,7 @@
             label = "0";
             bindings = <
 &none  &kp Q           &kp W             &kp E          &kp R           &kp T          &kp Y        &kp U            &kp I            &kp O              &kp P                &none
-&none  &kp A           &hm LEFT_SHIFT S  &hm LCTRL D    &hm LEFT_ALT F  &kp G          &kp H        &hm RIGHT_ALT J  &hm RCTRL K      &hm RIGHT_SHIFT L  &mt COLON SEMICOLON  &rgb_ug RGB_ON
+&none  &kp A           &hm LEFT_SHIFT S  &hm LCTRL D    &hm LEFT_ALT F  &kp G          &kp H        &hm RIGHT_ALT J  &hm RCTRL K      &hm RIGHT_SHIFT L  &mt COLON SEMICOLON  &none
 &none  &hm LEFT_GUI Z  &kp X             &kp C          &kp V           &kp B          &kp N        &kp M            &kp COMMA        &kp DOT            &mt QUESTION SLASH   &none
                                          &lt 3 LG(TAB)  &lt 4 TAB       &lt 1 SPACE    &lt 2 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
             >;
