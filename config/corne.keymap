@@ -23,21 +23,46 @@
 
 / {
     behaviors {
-        hm: homerow_mods {
+        // Left-hand home row mods
+
+        hml: homerow_mod_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            quick-tap-ms = <75>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <14 15 13>;
+        };
+
+        // Right-hand home row mods
+
+        hmr: homerow_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <20 19 21>;
         };
 
         mmv {
-            compatible = "zmk,behavior-mouse-move";  // Added compatible property
-            acceleration-exponent = <1>;            // 1
-            time-to-max-speed-ms = <900>;          // 40
-            delay-ms = <0>;                        // 0
+            acceleration-exponent = <1>;      // 1
+            time-to-max-speed-ms = <900>;    // 40
+            delay-ms = <0>;                   // 0
+        };
+
+        msc {
+            acceleration-exponent = <1>;      // 0
+            time-to-max-speed-ms = <400>;      // 500
+            delay-ms = <0>;                   //   10
         };
     };
 
