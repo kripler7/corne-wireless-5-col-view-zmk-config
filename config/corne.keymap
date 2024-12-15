@@ -61,7 +61,7 @@
 
         e {
             bindings = <&kp ENTER>;
-            key-positions = <22 21>;
+            key-positions = <21 20>;
         };
 
         h {
