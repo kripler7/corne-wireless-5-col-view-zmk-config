@@ -11,6 +11,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #ifndef ZMK_MOUSE_DEFAULT_MOVE_VAL
 
@@ -70,6 +73,7 @@
         a {
             bindings = <&mt GRAVE ESCAPE>;
             key-positions = <1 2>;
+            layers = <1 2 3 4 5 0 6>;
         };
 
         b {
@@ -130,6 +134,12 @@
         game {
             bindings = <&to 7>;
             key-positions = <17 29 18 30>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            layers = <7>;
         };
     };
 
