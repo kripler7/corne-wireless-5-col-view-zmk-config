@@ -175,10 +175,10 @@
         number_layer {
             label = "3";
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY  &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp PLUS         &none
-&none  &none  &none  &none  &none  &none    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA     &kp KP_EQUAL     &none
-                     &none  &none  &none    &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER
+&none  &none        &none  &none  &none  &none    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY  &none
+&none  &none        &none  &none  &none  &none    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp PLUS         &none
+&none  &bootloader  &none  &none  &none  &none    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA     &kp KP_EQUAL     &none
+                           &none  &none  &none    &kp KP_NUMBER_0  &kp PERIOD       &kp KP_ENTER
             >;
         };
 
