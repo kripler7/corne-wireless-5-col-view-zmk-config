@@ -67,12 +67,12 @@
 
         d {
             bindings = <&kp DEL>;
-            key-positions = <10 9>;
+            key-positions = <9 10>;
         };
 
         e {
             bindings = <&kp ENTER>;
-            key-positions = <21 20>;
+            key-positions = <20 21>;
         };
 
         h {
@@ -87,7 +87,7 @@
 
         Backslash_pipe {
             bindings = <&mt PIPE BACKSLASH>;
-            key-positions = <34 33>;
+            key-positions = <33 34>;
         };
 
         print_screen {
@@ -102,7 +102,7 @@
 
         bt_layer {
             bindings = <&to 7>;
-            key-positions = <5 4 3>;
+            key-positions = <3 4 5>;
         };
 
         default_layer {
@@ -112,7 +112,7 @@
 
         f_layer {
             bindings = <&to 6>;
-            key-positions = <17 16 15 14>;
+            key-positions = <14 15 16 17>;
         };
 
         colemak_dh {
