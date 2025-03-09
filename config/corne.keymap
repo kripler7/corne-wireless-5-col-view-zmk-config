@@ -62,7 +62,7 @@
 
         b {
             bindings = <&kp CLCK>;
-            key-positions = <14 13 15>;
+            key-positions = <15 14>;
         };
 
         d {
