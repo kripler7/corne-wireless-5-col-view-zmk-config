@@ -111,13 +111,13 @@
         };
 
         f_layer {
-            bindings = <&tog 6>;
+            bindings = <&to 6>;
             key-positions = <17 16 15 14>;
         };
 
-        num_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
+        colemak_dh {
+            bindings = <&tog 1>;
+            key-positions = <39 40 41 34>;
         };
     };
 
