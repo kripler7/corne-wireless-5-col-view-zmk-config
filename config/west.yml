@@ -2,17 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye
-      url-base: https://github.com/GPeye
-    - name: m165437
-      url-base: https://github.com/M165437
+    - name: whoop-t
+      url-base: https://github.com/whoop-t
   projects:
-    - name: nice-view-gem
-      remote: m165437
-      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-fry-button-miss 
+      remote: whoop-t 
+      revision: main 
   self:
     path: config
