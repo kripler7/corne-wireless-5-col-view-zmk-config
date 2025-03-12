@@ -58,6 +58,7 @@
         a {
             bindings = <&mt GRAVE ESCAPE>;
             key-positions = <1 2>;
+            layers = <0 1 4>;
         };
 
         b {
@@ -118,6 +119,12 @@
         colemak_dh {
             bindings = <&tog 1>;
             key-positions = <39 40 41 34>;
+        };
+
+        Tilde {
+            bindings = <&mt LS(GRAVE) GRAVE>;
+            key-positions = <1 2>;
+            layers = <3 2>;
         };
     };
 
